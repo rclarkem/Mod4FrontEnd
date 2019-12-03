@@ -6,9 +6,13 @@ export default class Input extends Component {
 			<div>
 				<form onSubmit={this.props.userInput}>
 					<label>
-						Todo Item:
-                        <br/>
-						<input style={{width:'50%', height: '50px'}} type='text' name='name' />
+						Agenda List:
+						<br />
+						<input
+							style={{ width: '50%', height: '50px' }}
+							type='text'
+							name='name'
+						/>
 					</label>
 					<input type='submit' value='Submit' />
 				</form>

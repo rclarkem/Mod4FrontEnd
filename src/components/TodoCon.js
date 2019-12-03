@@ -5,7 +5,7 @@ export default class TodoCon extends Component {
 		return (
 			<div key>
 				<ul>
-					<li>{this.props.item.taskname}</li>
+					<li>{this.props.item.list}</li>
 				</ul>
 			</div>
 		);
